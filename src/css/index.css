@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #222;
@@ -12,20 +9,19 @@ body {
     background-size: cover;
 }
 
+#root {
+  text-align: -webkit-center;
+  padding-top: 20%;
+  margin: 0 10px;
+}
+
 .App {
     background: #000000c0;
     color: white;
     padding: 2em;
     border-radius: 30px;
     max-width: 420px;
-    width: 100%;
     margin: 1em;
-}
-
-.search {
-  display:flex;
-  align-items: center;
-  justify-content: center;
 }
 
 input.search-bar {
@@ -65,4 +61,8 @@ button:hover {
 
 .temp {
   font-size: 2.7em;
+}
+
+.weather {
+  text-align: left;
 }
